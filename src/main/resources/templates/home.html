@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 th:text="${appName}">Amazon Book Store</h1>
+    </div>
+    <ul class="li"><a th:href="@{/car}">Top 10 oto ban chay</a></ul>
+    <ul class="li"><a th:href="@{/carwithcss}">Top oto có ảnh và CSS đẹp</a></ul>
+  </div>
+</body>
+</html>
